@@ -70,5 +70,8 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-    git add .
-        git commit -m "HITO 2"
+
+
+
+
+
