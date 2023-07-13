@@ -53,4 +53,3 @@ public class NotificacionesActivity extends AppCompatActivity {
         });
     }
 }
-

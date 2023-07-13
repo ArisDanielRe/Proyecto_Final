@@ -34,4 +34,3 @@ public class HorarioActivity extends AppCompatActivity {
         recyclerViewHorario.setAdapter(adapter);
     }
 }
-

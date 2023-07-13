@@ -9,13 +9,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuActivity extends AppCompatActivity {
 
+    private Button buttonHorario;
+    private Button buttonNotificaciones;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        Button buttonHorario = findViewById(R.id.buttonHorario);
-        Button buttonNotificaciones = findViewById(R.id.buttonNotificaciones);
+        buttonHorario = findViewById(R.id.buttonHorario);
+        buttonNotificaciones = findViewById(R.id.buttonNotificaciones);
 
         buttonHorario.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,4 +37,5 @@ public class MenuActivity extends AppCompatActivity {
         });
     }
 }
+
 
