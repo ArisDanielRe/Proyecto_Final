@@ -1,5 +1,5 @@
 package com.example.proyecto_final;
-// HorarioAdapter.java
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class HorarioAdapter extends RecyclerView.Adapter<HorarioAdapter.ViewHolder> {
+
     private List<String> horarioList;
 
     public HorarioAdapter(List<String> horarioList) {
@@ -44,3 +45,4 @@ public class HorarioAdapter extends RecyclerView.Adapter<HorarioAdapter.ViewHold
         }
     }
 }
+

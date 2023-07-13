@@ -1,5 +1,5 @@
 package com.example.proyecto_final;
-// NotificacionesAdapter.java
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class NotificacionesAdapter extends RecyclerView.Adapter<NotificacionesAdapter.ViewHolder> {
+
     private List<String> notificacionesList;
 
     public NotificacionesAdapter(List<String> notificacionesList) {
