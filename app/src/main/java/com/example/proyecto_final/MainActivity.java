@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextPassword;
     private Button buttonLogin;
 
-    private static final String CORRECT_USERNAME = "admin";
-    private static final String CORRECT_PASSWORD = "password";
+        private static final String CORRECT_USERNAME = "daniel";
+    private static final String CORRECT_PASSWORD = "123456";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
